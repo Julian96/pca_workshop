@@ -7,9 +7,9 @@ USER root
 RUN python -m pip install --upgrade pip
 
 # Install python packages
-#COPY requirements.txt /
-#RUN pip install -r /requirements.txt
-#RUN jupyter contrib nbextension install
+COPY requirements.txt /
+RUN pip install -r /requirements.txt
+RUN jupyter contrib nbextension install
 
 # Remove work folder
 RUN rm -r /home/jovyan/work
