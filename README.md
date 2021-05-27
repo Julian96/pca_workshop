@@ -2,14 +2,15 @@
 
 ## Agenda
 
-1. Theorie
-    1. TODO
-    2. TODO
-    3. TODO
+1. Theory
+    1. What is PCA?
+    2. Derivation of the idea
+    3. Eigenvalues and Eigenvectors
+    4. Spectral theorem
 
-2. Praxis
-    1. PCA mit dem Package sklearn
-    2. PCA zu Fuß
+2. Practice
+    1. PCA with sklearn
+    2. PCA by hand
 
 ## Spin up the environment
 
@@ -21,7 +22,7 @@ After having installed docker, build the image and start the container using doc
 docker-compose up
 ```
 
-And then just copy paste the http://127.... (with token) into your browser.
+And then just copy paste the http://127.0.0.1:8888 (with token) into your browser.
 
 If you want to add additional packages you can do so in two ways:
 - Add them permanently by adding it to the requirements.txt.
