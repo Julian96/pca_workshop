@@ -5,5 +5,5 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./1_theorie/:/home/jovyan/theorie/
-      - ./2_praxis/:/home/jovyan/praxis/
+      - ./1_theory/:/home/jovyan/1_theory/
+      - ./2_practice/:/home/jovyan/2_practice/
